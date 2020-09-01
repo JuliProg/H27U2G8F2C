@@ -1,10 +1,10 @@
-![Create new chip](https://github.com/JuliProg/H27U1G8F2BTR/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
-![ChipUpdate](https://github.com/JuliProg/H27U1G8F2BTR/workflows/ChipUpdate/badge.svg)
+![Create new chip](https://github.com/JuliProg/H27U2G8F2C/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
+![ChipUpdate](https://github.com/JuliProg/H27U2G8F2C/workflows/ChipUpdate/badge.svg)
 # Join the development of the project ([list of tasks](https://github.com/users/JuliProg/projects/1))
 
 
-# H27U1G8F2BTR
-Implementation of the H27U1G8F2BTR chip for the JuliProg programmer
+# H27U2G8F2C
+Implementation of the H27U2G8F2C chip for the JuliProg programmer
 
 Dependency injection, DI based on MEF framework is used to connect the chip to the programmer.
 
@@ -25,7 +25,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         ChipAssembly()
         {
             myChip.devManuf = "Hynix";
-            myChip.name = "H27U1G8F2BTR";
+            myChip.name = "H27U2G8F2C";
             myChip.chipID = "ADF1001D";      // device ID - ADh F1h 00h 1Dh (Hynix_NAND_128Mo_H27U1G8F2BT.pdf page 19)
 
             myChip.width = Organization.x8;    // chip width - 8 bit
@@ -81,6 +81,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 

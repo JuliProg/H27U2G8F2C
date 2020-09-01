@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,8 +7,8 @@
     <ProjectGuid>{3E31FBFB-66A4-46D2-B211-1360CF8DE28F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>H27U1G8F2BTR</RootNamespace>
-    <AssemblyName>H27U1G8F2BTR</AssemblyName>
+    <RootNamespace>H27U2G8F2C</RootNamespace>
+    <AssemblyName>H27U2G8F2C</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NAND_Prog">
-      <HintPath>D:\a\H27U1G8F2BTR\H27U1G8F2BTR\references\NAND_Prog.exe</HintPath>
+      <HintPath>D:\a\H27U2G8F2C\H27U2G8F2C\references\NAND_Prog.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />

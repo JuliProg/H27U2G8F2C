@@ -2,7 +2,7 @@ using NAND_Prog;
 using System;
 using System.ComponentModel.Composition;
 
-namespace H27U1G8F2BTR
+namespace H27U2G8F2C
 {
     /*
      use the design :
@@ -27,7 +27,7 @@ namespace H27U1G8F2BTR
         ChipAssembly()
         {
             myChip.devManuf = "Hynix";
-            myChip.name = "H27U1G8F2BTR";
+            myChip.name = "H27U2G8F2C";
             myChip.chipID = "ADF1001D";      // device ID - ADh F1h 00h 1Dh (Hynix_NAND_128Mo_H27U1G8F2BT.pdf page 19)
 
             myChip.width = Organization.x8;    // chip width - 8 bit
@@ -128,9 +128,9 @@ namespace H27U1G8F2BTR
                 case 1:
                     str_result += "Device ";
                     if (bt == 0xF1)
-                        str_result += "is H27U1G8F2BTR";
+                        str_result += "is H27U2G8F2C";
                     else
-                        str_result += "is not H27U1G8F2BTR";
+                        str_result += "is not H27U2G8F2C";
                     str_result += Environment.NewLine;
                     break;
 
